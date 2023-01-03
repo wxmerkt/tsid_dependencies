@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>tsid_dependencies</name>
+  <version>0.0.1</version>
+  <description>Metapackage for building optional dependencies for TSID</description>
+  <maintainer email="opensource@wolfgangmerkt.com">Wolfgang Merkt</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>osqp-eigen</exec_depend>
+  <exec_depend>qpmad</exec_depend>
+  <!-- We first need to package simde to enable proxsuite -->
+  <!-- <exec_depend>proxsuite</exec_depend> -->
+
+  <export>
+    <metapackage/>
+  </export>
+</package>
