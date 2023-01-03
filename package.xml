@@ -9,8 +9,7 @@
   <buildtool_depend>catkin</buildtool_depend>
   <exec_depend>osqp-eigen</exec_depend>
   <exec_depend>qpmad</exec_depend>
-  <!-- We first need to package simde to enable proxsuite -->
-  <!-- <exec_depend>proxsuite</exec_depend> -->
+  <exec_depend>proxsuite</exec_depend>
 
   <export>
     <metapackage/>
